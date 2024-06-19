@@ -57,6 +57,8 @@ margin-right: auto;
 
 .header-container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -145,8 +147,9 @@ color: #404bbf;
 }
 
 .header-address {
-    font-style: normal;
-    display: flex;
+    display: none;
+   /* font-style: normal;
+    display: flex;*/
 }
 
 .header-address-list {
@@ -169,12 +172,22 @@ color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
 .header-address-link:hover {
     color: #404bbf;  
 }
 
 .header-address-link:focus {
     color: #404bbf  
+}
+
+.open-menu-btn {
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
 }
 
 .hero {
