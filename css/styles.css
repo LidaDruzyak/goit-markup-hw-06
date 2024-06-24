@@ -1062,6 +1062,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
 @media screen and (max-width: 767px) {
 
+
 .footer-web {
     margin-bottom: 72px;
 }
@@ -1143,6 +1144,10 @@ border: 1px solid rgba(46, 47, 66, 0.4);
         margin-right: 120px;
         padding: 25px 0;
        
+    }
+
+    .header-menu-mob {
+        display: none;
     }
 
 
